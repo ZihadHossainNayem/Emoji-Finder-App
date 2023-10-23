@@ -14,6 +14,9 @@ export const EmojiShowcase = () => {
   const [categories, setCategories] = useState([]);
   const [showCategories, setShowCategories] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState(null);
+  /* state for copy */
+  const [copied, setCopied] = useState(false);
+  const [copiedPosition, setCopiedPosition] = useState({ top: 0, left: 0 });
 
   /* data fetching when the component mounts */
   useEffect(() => {
@@ -47,7 +50,7 @@ export const EmojiShowcase = () => {
     const fetchCategories = async () => {
       try {
         const response = await axios.get(
-          "https://emoji-api.com/categories?access_key=5971fee5a52dc01fba488d9a3e9870fa6462605f"
+          `https://emoji-api.com/categories?access_key=${process.env.NEXT_PUBLIC_OPEN_EMOJI_API_KEY}`
         );
         setCategories(response.data);
       } catch (error) {
@@ -150,9 +153,18 @@ export const EmojiShowcase = () => {
           hover:bg-gray-100 cursor-pointer"
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
+            onClick={async (e) => {
+              await navigator.clipboard.writeText(emoji.character);
+              const rect = e.target.getBoundingClientRect();
+              setCopiedPosition({ top: rect.top - 15, left: rect.right + 10 });
+              setCopied(true);
+              setTimeout(() => {
+                setCopied(false);
+              }, 1000);
+            }}
           >
             <span>{emoji.character}</span>
-            {hoveredIndex === index && (
+            {hoveredIndex === index && !copied && (
               <span
                 className="absolute top-full left-full text-sm bg-[#8b5cf6] text-white 
             p-2 rounded whitespace-nowrap z-10 "
@@ -162,6 +174,14 @@ export const EmojiShowcase = () => {
             )}
           </div>
         ))
+      )}
+      {copied && (
+        <div
+          className="bg-green-400 text-sm p-2 rounded-lg absolute "
+          style={{ top: copiedPosition.top, left: copiedPosition.left }}
+        >
+          Copied!
+        </div>
       )}
     </div>
   );
