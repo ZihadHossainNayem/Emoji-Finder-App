@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![localhost_3000_ (3)](https://github.com/ZihadHossainNayem/Emoji-Finder-App/assets/30808845/e16df822-a613-43c1-a5bc-7b73d61eaa9b)![localhost_3000_ (2)](https://github.com/ZihadHossainNayem/Emoji-Finder-App/assets/30808845/dc238ab4-d168-4ff2-a92a-f81b61f17dd4)# Emoji Finder App
 
-## Getting Started
+# Features:
 
-First, run the development server:
+- **Emoji Display:**
+  - Display a collection of emojis on the app interface.
+  - Show emojis along with their characters and names.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Search Functionality:**
+  - Implement a search bar to search for specific emojis by their names or keywords.
+  - Filter emojis based on the user's search query in real-time.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Category Filters:**
+  - Categorize emojis into different categories (e.g., smileys, animals, objects).
+  - Allow users to filter emojis based on categories.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Hover Interaction:**
+  - Provide a hover effect to highlight emojis when the user hovers over them.
+  - Show the name of the hovered emoji when the user interacts with it.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Copy to Clipboard:**
+  - Enable users to copy an emoji to the clipboard by clicking on it.
+  - Display a "Copied!" message when the emoji is successfully copied.
 
-## Learn More
+- **Loading State:**
+  - Show a loading indicator while emojis are being fetched from the API.
+  - Provide feedback to users about the loading process.
 
-To learn more about Next.js, take a look at the following resources:
+- **Error Handling:**
+  - Handle errors gracefully, displaying appropriate messages if there are issues fetching emojis from the API.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Responsive Design:**
+  - Ensure the app is responsive and works well on various devices, including desktops, tablets, and smartphones.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+$### Emoji Showcase App Features:
 
-## Deploy on Vercel
+- **Emoji Display:**
+  - Display a collection of emojis on the app interface.
+  - Show emojis along with their characters and names.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Search Functionality:**
+  - Implement a search bar to search for specific emojis by their names or keywords.
+  - Filter emojis based on the user's search query in real-time.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Category Filters:**
+  - Categorize emojis into different categories (e.g., smileys, animals, objects).
+  - Allow users to filter emojis based on categories.
+
+- **Hover Interaction:**
+  - Provide a hover effect to highlight emojis when the user hovers over them.
+  - Show the name of the hovered emoji when the user interacts with it.
+
+- **Copy to Clipboard:**
+  - Enable users to copy an emoji to the clipboard by clicking on it.
+  - Display a "Copied!" message when the emoji is successfully copied.
+
+- **Loading State:**
+  - Show a loading indicator while emojis are being fetched from the API.
+  - Provide feedback to users about the loading process.
+
+- **Error Handling:**
+  - Handle errors gracefully, displaying appropriate messages if there are issues fetching emojis from the API.
+
+- **Responsive Design:**
+  - Ensure the app is responsive and works well on various devices, including desktops, tablets, and smartphones.
+
+# Screenshots
+
+Home Screen
+![localhost_3000_ (1)](https://github.com/ZihadHossainNayem/Emoji-Finder-App/assets/30808845/c634a4aa-f1a0-4e92-be8e-49d120a25aba)
+
+Showing Search Results
+![localhost_3000_](https://github.com/ZihadHossainNayem/Emoji-Finder-App/assets/30808845/c26c2722-2f67-402a-bda7-8cf0541badd2)
+
+Category Selection
+![localhost_3000_ (2)](https://github.com/ZihadHossainNayem/Emoji-Finder-App/assets/30808845/32c96adb-4e38-41bc-be2b-1a1f0f0b9d01)
+
+After Selecting Category
+![localhost_3000_ (3)](https://github.com/ZihadHossainNayem/Emoji-Finder-App/assets/30808845/194820a4-7680-4f97-82b0-e3d01001faa4)
+
+
