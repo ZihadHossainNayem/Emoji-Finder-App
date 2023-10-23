@@ -1,5 +1,6 @@
 # Emoji Finder App
 
+
 # Features:
 
 - **Emoji Display:**
@@ -14,37 +15,9 @@
   - Categorize emojis into different categories (e.g., smileys, animals, objects).
   - Allow users to filter emojis based on categories.
 
-- **Hover Interaction:**
-  - Provide a hover effect to highlight emojis when the user hovers over them.
-  - Show the name of the hovered emoji when the user interacts with it.
-
-- **Copy to Clipboard:**
-  - Enable users to copy an emoji to the clipboard by clicking on it.
-  - Display a "Copied!" message when the emoji is successfully copied.
-
-- **Loading State:**
-  - Show a loading indicator while emojis are being fetched from the API.
-  - Provide feedback to users about the loading process.
-
-- **Error Handling:**
-  - Handle errors gracefully, displaying appropriate messages if there are issues fetching emojis from the API.
-
-- **Responsive Design:**
-  - Ensure the app is responsive and works well on various devices, including desktops, tablets, and smartphones.
-
-$### Emoji Showcase App Features:
-
-- **Emoji Display:**
-  - Display a collection of emojis on the app interface.
-  - Show emojis along with their characters and names.
-
-- **Search Functionality:**
-  - Implement a search bar to search for specific emojis by their names or keywords.
-  - Filter emojis based on the user's search query in real-time.
-
-- **Category Filters:**
-  - Categorize emojis into different categories (e.g., smileys, animals, objects).
-  - Allow users to filter emojis based on categories.
+- **API Integration:**
+  - Integrate an external API (e.g., emoji API) to fetch emojis data dynamically.
+  - Fetch emojis data using API endpoints to populate the app.
 
 - **Hover Interaction:**
   - Provide a hover effect to highlight emojis when the user hovers over them.
@@ -63,6 +36,7 @@ $### Emoji Showcase App Features:
 
 - **Responsive Design:**
   - Ensure the app is responsive and works well on various devices, including desktops, tablets, and smartphones.
+
 
 # Screenshots
 
