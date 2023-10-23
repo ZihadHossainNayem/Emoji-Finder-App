@@ -1,4 +1,4 @@
-![localhost_3000_ (3)](https://github.com/ZihadHossainNayem/Emoji-Finder-App/assets/30808845/e16df822-a613-43c1-a5bc-7b73d61eaa9b)![localhost_3000_ (2)](https://github.com/ZihadHossainNayem/Emoji-Finder-App/assets/30808845/dc238ab4-d168-4ff2-a92a-f81b61f17dd4)# Emoji Finder App
+# Emoji Finder App
 
 # Features:
 
